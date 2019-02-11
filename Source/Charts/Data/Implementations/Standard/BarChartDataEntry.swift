@@ -13,6 +13,9 @@ import Foundation
 
 open class BarChartDataEntry: ChartDataEntry
 {
+    
+    public var roundedCorners: UIRectCorner = []
+    
     /// the values the stacked barchart holds
     private var _yVals: [Double]?
     
